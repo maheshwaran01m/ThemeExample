@@ -1,0 +1,9 @@
+
+colors:
+  inputs: Theme/ColorTheme/colorCodes.json
+  outputs:
+    templateName: swift5
+    params:
+      forceProvidesNamespaces: true
+      enumName: AppColor
+    output: Theme/ColorTheme/AppColor.swift

@@ -1,0 +1,31 @@
+# To Generate the colors using json in DerivedData Folder
+
+ colors:
+  inputs: Sources/Theme/ColorTheme/colorCodes.json
+  outputs:
+    templateName: swift5
+    params:
+      forceProvidesNamespaces: true
+      publicAccess: true
+      enumName: AppColor
+    output: ${DERIVED_SOURCES_DIR}/AppColor.swift
+
+
+# To Generate the colors using json in custom Folder Path
+
+#colors:
+#  inputs: Sources/Theme/ColorTheme/colorCodes.json
+#  outputs:
+#    templateName: swift5
+#    params:
+#      forceProvidesNamespaces: true
+#      publicAccess: true
+#      accessLevel: publicAccess
+#      enumName: AppColor
+#    output: Sources/Theme/ColorTheme/AppColor.swift
+
+# While using custom output path we facing the some in package itself, we need to manually
+
+# Run the command in Terminal (Project Root directory)
+
+# swift package --allow-writing-to-package-directory generate-code-for-resources
