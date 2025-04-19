@@ -10,5 +10,14 @@ let package = Package(
   ],
   targets: [
     .target(name: "CommandPluginExample"),
+    .plugin(
+      name: "GeneratePlugin",
+      capability: .command(
+        intent: .custom(verb: "regenerate-contributors-list",
+                        description: "Generates the CONTRIBUTORS.txt file based on Git logs"),
+        permissions: [
+          .writeToPackageDirectory(reason: "This command write the new CONTRIBUTORS.txt to the source root.")
+        ]
+      )),
   ]
 )
