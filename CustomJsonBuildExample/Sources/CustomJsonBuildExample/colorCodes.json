@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "name": "primary0",
+      "light": "#000000",
+      "dark": "#22005D"
+    },
+    {
+      "name": "primary10",
+      "light": "#381E72",
+      "dark": "#4F378A"
+    },
+    {
+      "name": "primary20",
+      "light": "#6750A4",
+      "dark": "#8069BF"
+    }
+  ]
+}

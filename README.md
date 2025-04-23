@@ -10,6 +10,7 @@ This Project is about the Code generation tools using SPM Plugin and SwiftGen
    - Build Tool Plugin
      - BuildPluginExample (Image Asset Generation)
      - JsonBuildExample (Json to Color Asset Generation)
+     - CustomJsonBuildExample (Custom JSon to Color Asset Generation)
  
 -  SwiftGen
     - Xcode Project
