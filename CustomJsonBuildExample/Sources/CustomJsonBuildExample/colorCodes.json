@@ -14,6 +14,36 @@
       "name": "primary20",
       "light": "#6750A4",
       "dark": "#8069BF"
-    }
+    },
+    {
+      "name": "tertiary0",
+      "light": "#B58392",
+      "dark": "#D29DAC"
+    },
+    {
+      "name": "tertiary10",
+      "light": "#EFB8C8",
+      "dark": "#FFD9E3"
+    },
+    {
+      "name": "tertiary20",
+      "light": "#FFECF0",
+      "dark": "#FFFBFF"
+    },
+    {
+      "name": "error0",
+      "light": "#410004",
+      "dark": "#65090E"
+    },
+    {
+      "name": "error10",
+      "light": "#852221",
+      "dark": "#A53A36"
+    },
+    {
+      "name": "error20",
+      "light": "#C5524C",
+      "dark": "#E66A63"
+    },
   ]
 }
