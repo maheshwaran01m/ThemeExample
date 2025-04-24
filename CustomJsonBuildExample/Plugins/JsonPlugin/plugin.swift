@@ -16,6 +16,7 @@ struct JsonPlugin: BuildToolPlugin {
         let inputURL = asset.url
         
         let outputURL = context.pluginWorkDirectoryURL.appending(path: "\(base).swift")
+        print("[Plugin] Output URL - \(outputURL.path())")
         
         return .buildCommand(
           displayName: "Generating constants for \(base)",
